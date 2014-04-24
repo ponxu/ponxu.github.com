@@ -1,9 +1,9 @@
 ---
-title: links
+title: Links
 layout: page
 comments: yes
 ---
 
- - 百度 [baidu](http://www.baidu.com)
- - Google [google](http://www.google.com)
+ - [百度](http://www.baidu.com)
+ - [Google](http://www.google.com)
 
