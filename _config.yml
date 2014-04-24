@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            胖徐的笔记
+title:            Ponxu
 tagline:          'A Jekyll theme'
-description:      '我的笔记....'
+description:      '胖徐的笔记'
 url:              http://ponxu.com
 
 author:
