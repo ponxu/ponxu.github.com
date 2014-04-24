@@ -1,24 +1,9 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/
+url: http://webfrogs.github.com
+author: webfrogs
+pygments: true
+safe: true
+paginate: 16
+auto: true
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            胖徐的笔记
-tagline:          '把生活学习记录下来'
-description:      '爱生活, 爱学习, 爱技术, 爱Java, 爱Python, 爱宝马!'
-url:              http://ponxu.com
-
-author:
-  name:           'ponxu'
-  url:            http://ponxu.com
-
-paginate:         5
-
-# Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/poole/hyde
