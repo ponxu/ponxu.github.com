@@ -8,7 +8,7 @@ comments: yes
 ---
 
 append:
-{% highlight python linenos %}
+{% highlight python %}
 x = [1, 2, 3]
 x.append([4, 5])
 print (x)
@@ -17,7 +17,7 @@ print (x)
 gives you: [1, 2, 3, [4, 5]]
 
 extend:
-{% highlight python linenos %}
+{% highlight python %}
 x = [1, 2, 3]
 x.extend([4, 5])
 print (x)

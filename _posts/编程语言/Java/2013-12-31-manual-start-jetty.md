@@ -7,7 +7,7 @@ tags: Java
 comments: yes
 ---
 
-{% highlight java linenos %}
+{% highlight java %}
 public class Main {
 
     public static void main(String[] args) throws Exception {

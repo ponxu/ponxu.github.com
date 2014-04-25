@@ -7,7 +7,7 @@ tags: Python
 comments: yes
 ---
 
-{% highlight python linenos %}
+{% highlight python %}
 # coding:utf-8
 import datetime
 

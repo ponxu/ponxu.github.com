@@ -7,7 +7,7 @@ tags: Python
 comments: yes
 ---
 
-{% highlight python linenos %}
+{% highlight python %}
 #coding: utf-8
 import smtplib
 from email.mime.text import MIMEText
