@@ -7,8 +7,8 @@ tags: Python
 comments: yes
 ---
 
+{% highlight python linenos %}
 # coding:utf-8
-
 import datetime
 
 
@@ -53,3 +53,5 @@ print (datetime.datetime(2013, 12, 1) - datetime.datetime(2013, 11, 1)).days
 %Z: 时区名称(如果是本地时间，返回空字符串)
 %%: %% => %
 """
+
+{% endhighlight %}

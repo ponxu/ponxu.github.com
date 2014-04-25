@@ -7,6 +7,7 @@ tags: Python
 comments: yes
 ---
 
+{% highlight python linenos %}
 #coding: utf-8
 import smtplib
 from email.mime.text import MIMEText
@@ -28,3 +29,5 @@ def send_mail(to, subject, content):
     print 'sendto', to, subject
 
 send_mail('email1@test.com;email2@test.com', 'hello title', 'just for test!!')
+
+{% endhighlight %}

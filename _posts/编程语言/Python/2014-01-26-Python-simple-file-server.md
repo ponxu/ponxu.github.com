@@ -9,7 +9,9 @@ comments: yes
 
 
 $ cd /home/haoel
+
 $ python -m SimpleHTTPServer
 
 指定端口
+
 $ python -m SimpleHTTPServer 8080
