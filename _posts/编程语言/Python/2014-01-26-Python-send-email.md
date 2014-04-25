@@ -27,4 +27,4 @@ def send_mail(to, subject, content):
 
     print 'sendto', to, subject
 
-send_mail('email1@test.com;email2@trafree.com', 'hello title', 'just for test!!')
+send_mail('email1@test.com;email2@test.com', 'hello title', 'just for test!!')
