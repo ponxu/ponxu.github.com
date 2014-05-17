@@ -7,6 +7,5 @@ tags: Python
 comments: yes
 ---
 
-原文地址
-
+原文地址  
 http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make
