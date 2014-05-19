@@ -7,6 +7,5 @@ tags: Java, Log4j
 comments: yes
 ---
 
-参考文档
-
+参考文档  
 [Thrift+scribe实现分布式日志收集，并与log4j集成](http://www.slideshare.net/liuzhongbing/thriftscribelog4j-5955856)

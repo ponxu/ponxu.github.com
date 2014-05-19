@@ -7,11 +7,8 @@ tags: Python
 comments: yes
 ---
 
-
-$ cd /home/haoel
-
+$ cd /home/your-dir  
 $ python -m SimpleHTTPServer
 
-指定端口
-
+指定端口  
 $ python -m SimpleHTTPServer 8080
