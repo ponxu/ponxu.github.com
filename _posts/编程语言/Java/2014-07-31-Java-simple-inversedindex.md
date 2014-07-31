@@ -3,7 +3,7 @@ layout: post
 title: Java简单实现倒排索引
 description: 用Java简单实现倒排索引
 category: Java
-tags: Java,推荐系统
+tags: Java, 推荐系统
 comments: yes
 ---
 
