@@ -3,7 +3,7 @@ layout: post
 title: Log4j分布式日志
 description: Log4j分布式日志
 category: Java
-tags: Java, Log4j
+tags: Java Log4j
 comments: yes
 ---
 
