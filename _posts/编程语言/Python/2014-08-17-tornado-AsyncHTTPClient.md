@@ -42,8 +42,8 @@ def get(url_with_callbacks):
     items = list(url_with_callbacks)
     for item in items:
         url, callback = item
-        _callback = functools.partial(_invoke_callback_and_check_ioloop, io_loop, 
-            http_client, items, item, callback)
+        _callback = functools.partial(_invoke_callback_and_check_ioloop, 
+            io_loop, http_client, items, item, callback)
         http_client.fetch(url, _callback, user_agent=AGENT)
 
     io_loop.start()
