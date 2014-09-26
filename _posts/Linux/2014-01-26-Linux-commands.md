@@ -25,3 +25,4 @@ VI命令
  - :q!
  - :wq
  - u 撤销
+ - %s/str1/str2/g 替换文中所有 str1 为 str2 (等同于 :g/str1/s//str2/g 和 :1,$ s/str1/str2/g)
