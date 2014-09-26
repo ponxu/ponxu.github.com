@@ -13,7 +13,8 @@ import os
 def my_fork():
     children = []
     for i in range(0, 5):
-        # Return 0 in the child and the child's process id in the parent
+        # Return 0 in the child 
+        # and the child's process id in the parent
         child_pid = os.fork()
         if child_pid == 0:
             print "Child Process: PID# %s" % os.getpid()
