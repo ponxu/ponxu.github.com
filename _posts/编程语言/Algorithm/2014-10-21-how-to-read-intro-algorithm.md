@@ -19,4 +19,7 @@ comments: yes
 
 
 原文地址  
-http://xiaozu.renren.com/xiaozu/245753/336675876?curpage=0
+[http://xiaozu.renren.com/xiaozu/245753/336675876?curpage=0]
+
+离散数学  
+[http://ocw.nctu.edu.tw/course_detail_3.php?bgid=9&gid=0&nid=252#.ULJBDuJwp0Q]
