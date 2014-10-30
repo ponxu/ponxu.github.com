@@ -14,4 +14,4 @@ comments: yes
 42 4 1 * * root xxxxxx_command #monthly
 
 参考  
-<http://my.oschina.net/indestiny/blog/195065>
+<http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html>
