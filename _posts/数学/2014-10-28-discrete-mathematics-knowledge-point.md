@@ -10,3 +10,6 @@ comments: yes
 One-to-One Functions  
 Onto(Surjective)Functions  
 Bijections  
+
+GCD   
+LCM 
