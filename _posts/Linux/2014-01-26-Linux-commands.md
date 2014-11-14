@@ -17,6 +17,8 @@ Linux命令
  - tar -cvf shell.tar shell/
  - tar -xvf shell.tar
  - find . -name ".DS_Store"
+ - curl -H "Content-Type: text/xml" --data-binary "@xxxx.xml" http://ponxu.com/
+ - ssh -N -L localhost:3309:192.168.1.19:3306 xuser
 
 
 VI命令
