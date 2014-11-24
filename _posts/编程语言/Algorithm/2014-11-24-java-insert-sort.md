@@ -35,7 +35,8 @@ public class TestInsertionSort {
 
     public static int[] randomIntArray(int len) {
         int[] a = new int[len];
-        for (int i = 0; i < len; i++) a[i] = new Random().nextInt(len * 100);
+        for (int i = 0; i < len; i++)
+            a[i] = new Random().nextInt(len * 100);
         return a;
     }
 }
