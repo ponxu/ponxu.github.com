@@ -8,6 +8,7 @@ comments: yes
 ---
 
 {% highlight java %}
+cat ~/.ssh/config
 
 # ponxu-osc
 Host git.oschina.net
