@@ -7,7 +7,7 @@ tags: Linux
 comments: yes
 ---
 
-{% highlight shell %}
+{% highlight java %}
 
 # ponxu-osc
 Host git.oschina.net
