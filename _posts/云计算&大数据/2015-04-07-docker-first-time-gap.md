@@ -18,9 +18,11 @@ sudo reboot
 
 ## 删不掉镜像
 是因为有container依赖此镜像, 直接删除所有container:
+
 ```
 docker ps -a | awk '{print $1}' | xargs docker rm
 ```
+
 然后`docker rmi`
 
 
