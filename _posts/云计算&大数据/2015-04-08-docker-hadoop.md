@@ -10,12 +10,15 @@ comments: yes
 [先填Docker的坑](http://ponxu.com/2015-04-07/docker-first-time-gap.html)
 
 
-必要工具
+**必要工具**
+
 ```
 apt-get install -y vim curl tar rsync
 ```
 
-java环境
+
+**java环境**
+
 ```
 mkdir /usr/local/java
 cd /usr/local/java
@@ -29,7 +32,9 @@ export JAVA_HOME=/usr/local/java/jdk1.7.0_51
 export PATH=$PATH:$JAVA_HOME/bin
 ```
 
-hadoop环境
+
+**hadoop环境**
+
 ```
 mkdir /usr/local/apache
 cd /usr/local/apache
@@ -46,19 +51,25 @@ export PATH=$PATH:$HADOOP_PREFIX/bin
 export PATH=$PATH:$HADOOP_PREFIX/sbin
 ```
 
-数据目录
+
+**数据目录**
+
 ```
 mkdir -p /usr/local/apache/hadoop-data/tmp
 mkdir -p /usr/local/apache/hadoop-data/namenode
 mkdir -p /usr/local/apache/hadoop-data/datanode
 ```
 
-hadoop-env.sh
+
+**hadoop-env.sh**
+
 ```
 export JAVA_HOME=/usr/local/java/jdk1.7.0_51
 ```
 
-core-site.xml
+
+**core-site.xml**
+
 ```
     <property>
             <name>hadoop.tmp.dir</name>
@@ -77,7 +88,9 @@ core-site.xml
     </property>
 ```
 
-hdfs-site.xml
+
+**hdfs-site.xml**
+
 ```
     <property>
         <name>dfs.replication</name>
@@ -100,7 +113,9 @@ hdfs-site.xml
     </property>
 ```
 
-mapred-site.xml
+
+**mapred-site.xml**
+
 ```
 cp /usr/local/apache/hadoop-2.6.0/etc/hadoop/mapred-site.xml.template /usr/local/apache/hadoop-2.6.0/etc/hadoop/mapred-site.xml
 
@@ -114,13 +129,17 @@ cp /usr/local/apache/hadoop-2.6.0/etc/hadoop/mapred-site.xml.template /usr/local
     </property>
 ```
 
-slaves
+
+**slaves**
+
 ```
 slave1
 slave2
 ```
 
-收尾
+
+**收尾**
+
 ```
 hadoop namenode -format
 
@@ -129,7 +148,9 @@ exit
 docker commit -m 'install hadoop' xxxxxxxx ubuntu:hadoop
 ```
 
-启动集群
+
+**启动集群**
+
 ```
 1
 docker run -it --dns=192.168.1.169 -h master ubuntu:hadoop
@@ -171,11 +192,12 @@ http://master:50070
 
 ```
 
-**遗留问题**: 虽然可以启动slave, 但master感知不到
+
+**遗留问题**  
+虽然可以启动slave, 但master感知不到
 
 
-
-参考:
+**参考:**
 
  - hadoop环境变量 <http://tashan10.com/yong-dockerda-jian-hadoopwei-fen-bu-shi-ji-qun/>
  - 资源下载 <https://github.com/sequenceiq/hadoop-docker/blob/master/Dockerfile>
